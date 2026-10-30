@@ -1,0 +1,13 @@
+﻿net.exe : System error 1376 has occurred.
+At E:\respuesta-en-vivo-7.ps1:62 char:36
++ Recoge '16b-administradores'  { net <<<<  localgroup Administradores }
+    + CategoryInfo          : NotSpecified: (System error 1376 has occurred.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+
+The specified local group does not exist.
+
+
+
+

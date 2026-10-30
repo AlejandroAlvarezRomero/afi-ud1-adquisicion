@@ -1,0 +1,38 @@
+{"level":"info","msg":"<green>Starting</> Org Manager service.","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"Starting services for Org <root> (root)","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"<green>Starting</> Journal service for Org <root> (root).","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"<green>Starting</> user manager service for org root","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"UserManagerService: Watching for events from Server.Internal.UserManager","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"<green>Starting</> the notification service for Org <root> (root).","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"NotificationService: Watching for events from Server.Internal.Ping","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"NotificationService: Watching for events from Server.Internal.Pong","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"NotificationService: Watching for events from Server.Internal.Notifications","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"<green>ClientInfo Manager</> Rebuilding snapshot for org Org <root> (root) from legacy records - this might take a while.","time":"2026-10-28T18:44:38Z"}
+{"level":"debug","msg":"<green>ClientInfo Manager</> Rebuilt 0 clients from Legacy data.","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"<green>Starting</> Client Info service for Org <root> (root).","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"ClientInfoManager: Watching for events from Server.Internal.ClientTasks","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"ClientInfoManager: Watching for events from System.Flow.Completion","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"MutationSync: Frontend service not initialized.","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"ClientInfoManager: Watching for events from Server.Internal.ClientScheduled","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"ClientInfoManager: Watching for events from Server.Internal.ClientPing","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"InventoryService: Watching for events from Server.Internal.Inventory","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"<green>Starting</> Inventory Service for Org <root> (root)","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"InventoryService: Reloading inventory from file for org root","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"Starting repository manager for Org <root> (root)","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"RepositoryManager: Watching for events from Server.Internal.ArtifactModification","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"Loaded artifacts\\Linux.Triage.UAC.yaml","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"Loaded artifacts\\Windows.KapeFiles.Targets.yaml","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"Loaded artifacts\\Windows.Triage.Targets.yaml","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"Loaded 416 built in artifacts in 95.6605ms","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"Loaded 0 custom artifacts in 971.4µs","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"Running query LET _ <= SELECT name FROM artifact_definitions()\n","time":"2026-10-28T18:44:38Z"}
+{"level":"info","msg":"Compiled all artifacts.","time":"2026-10-28T18:44:39Z"}
+{"level":"info","msg":"Running query LET _ <= import(artifact=\"Server.Utils.CreateCollector\")\n","time":"2026-10-28T18:44:39Z"}
+{"level":"info","msg":"Running query LET Spec <= parse_yaml(filename=SPECFILE, schema=SpecSchema) || (FORCE  && parse_yaml(filename=SPECFILE)) || log(level=\"ERROR\", message=\"<red>Abording</> due to invalid spec file!\")\n","time":"2026-10-28T18:44:39Z"}
+{"level":"info","msg":"Running query LET _K = SELECT _key FROM items(item=Spec.Artifacts)\n","time":"2026-10-28T18:44:39Z"}
+{"level":"info","msg":"Running query SELECT * FROM if(condition=Spec.OS, then={ SELECT * FROM Artifact.Server.Utils.CreateCollector(OS=Spec.OS, artifacts=serialize(item=_K._key), parameters=serialize(item=Spec.Artifacts), target=Spec.Target, target_args=Spec.TargetArgs, encryption_scheme=Spec.EncryptionScheme, encryption_args=Spec.EncryptionArgs, opt_verbose=Spec.OptVerbose, opt_banner=Spec.OptBanner, opt_prompt=Spec.OptPrompt, opt_admin=Spec.OptAdmin, opt_tempdir=Spec.OptTempdir, opt_level=Spec.OptLevel, opt_concurrency=Spec.OptConcurrency, opt_filename_template=Spec.OptFilenameTemplate, opt_collector_filename=Spec.OptCollectorTemplate, opt_format=Spec.OptFormat, opt_output_directory=Spec.OptOutputDirectory, opt_cpu_limit=Spec.OptCpuLimit, opt_progress_timeout=Spec.OptProgressTimeout, opt_timeout=Spec.OptTimeout, opt_version=Spec.OptVersion, opt_delete_at_exit=Spec.OptDeleteAtExit) })\n","time":"2026-10-28T18:44:39Z"}
+{"level":"info","msg":"Downloading tool <green>VelociraptorWindows</> FROM <cyan>https://github.com/Velocidex/velociraptor/releases/download/v0.76/velociraptor-v0.76.7-windows-amd64.exe</>","time":"2026-10-28T18:44:39Z"}
+{"level":"info","msg":"inventory_get: Unable to download file from https://github.com/Velocidex/velociraptor/releases/download/v0.76/velociraptor-v0.76.7-windows-amd64.exe: 404 Not Found\n","time":"2026-10-28T18:44:39Z"}
+{"level":"info","msg":"Adding artifact_definition for Windows.Triage.Targets\n","time":"2026-10-28T18:44:39Z"}
+{"level":"info","msg":"Uploaded \\\\?\\C:\\Users\\Instituto\\Desktop\\velo\\datastore\\spec.yaml (858 bytes)\n","time":"2026-10-28T18:44:39Z"}
+{"level":"info","msg":"<red>Exiting</> notification service for Org <root> (root)!","time":"2026-10-28T18:44:39Z"}

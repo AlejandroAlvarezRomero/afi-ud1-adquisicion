@@ -1,0 +1,2663 @@
+﻿
+Folder: \
+HostName:                             FORENSE-06
+TaskName:                             \AutoPico Daily Restart
+Next Run Time:                        10/27/2026 11:59:00 PM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/21/2019 11:59:00 PM
+Last Result:                          0
+Author:                               Administrador
+Task To Run:                          "C:\Program Files\KMSpico\AutoPico.exe" /silent
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           11:59:00 PM
+Start Date:                           12/28/2018
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Active Directory Rights Management Services Client
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Automated)
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Updates the AD RMS rights policy templates for the user. This job does not provide a credential prompt if authentication to the template distribution web service on the server fails. In this case, it fails silently.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Everyone
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           3:00:00 AM
+Start Date:                           11/9/2006
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Automated)
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Updates the AD RMS rights policy templates for the user. This job does not provide a credential prompt if authentication to the template distribution web service on the server fails. In this case, it fails silently.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Everyone
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Manual)
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Updates the AD RMS rights policy templates for the user. This job provides a credential prompt if authentication to the template distribution web service on the server fails.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Everyone
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\AppID
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\AppID\PolicyConverter
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\appidpolicyconverter.exe 
+Start In:                             N/A
+Comment:                              Converts the software restriction policies policy from XML into binary format.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\AppID\VerifiedPublisherCertStoreCheck
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\appidcertstorecheck.exe 
+Start In:                             N/A
+Comment:                              Inspects the AppID certificate cache for invalid or revoked certificates.
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for 3 minutes, If Not Idle Retry For 1380 minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Application Experience
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Application Experience\AitAgent
+Next Run Time:                        10/28/2026 2:30:00 AM
+Status:                               Unknown
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/22/2019 2:30:00 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          aitagent 
+Start In:                             N/A
+Comment:                              Aggregates and uploads Application Telemetry information if opted-in to the Microsoft Customer Experience Improvement Program.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 3 minutes, If Not Idle Retry For 1320 minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           2:30:00 AM
+Start Date:                           10/8/2007
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Application Experience\ProgramDataUpdater
+Next Run Time:                        10/28/2026 12:30:00 AM
+Status:                               Unknown
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/22/2019 12:30:00 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe aepdu.dll,AePduRunUpdate
+Start In:                             N/A
+Comment:                              Collects program telemetry information if opted-in to the Microsoft Customer Experience Improvement Program
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 3 minutes, If Not Idle Retry For 1380 minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           12:30:00 AM
+Start Date:                           10/8/2007
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\Autochk
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Autochk\Proxy
+Next Run Time:                        N/A
+Status:                               Unknown
+Logon Mode:                           Interactive/Background
+Last Run Time:                        9/2/2019 7:13:03 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe /d acproxy.dll,PerformAutochkOperations
+Start In:                             N/A
+Comment:                              This task collects and uploads autochk SQM data if opted-in to the Microsoft Customer Experience Improvement Program.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 10 minutes, If Not Idle Retry For 525600 minutes
+Power Management:                     
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Bluetooth
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Bluetooth\UninstallDeviceTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft
+Task To Run:                          BthUdTask.exe $(Arg0)
+Start In:                             N/A
+Comment:                              Uninstalls the PnP device associated with the specified Bluetooth service ID
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\CertificateServicesClient
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\CertificateServicesClient\SystemTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:51:36 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Certificate Services Client automatically manages digital identities such as Certificates, Keys and Credentials for the users and the machine, enabling enrollment, roaming and other services.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\CertificateServicesClient\SystemTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:51:36 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Certificate Services Client automatically manages digital identities such as Certificates, Keys and Credentials for the users and the machine, enabling enrollment, roaming and other services.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\CertificateServicesClient\SystemTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:51:36 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Certificate Services Client automatically manages digital identities such as Certificates, Keys and Credentials for the users and the machine, enabling enrollment, roaming and other services.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\CertificateServicesClient\UserTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:52:11 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Certificate Services Client automatically manages digital identities such as Certificates, Keys and Credentials for the users and the machine, enabling enrollment, roaming and other services.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\CertificateServicesClient\UserTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:52:11 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Certificate Services Client automatically manages digital identities such as Certificates, Keys and Credentials for the users and the machine, enabling enrollment, roaming and other services.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\CertificateServicesClient\UserTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:52:11 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Certificate Services Client automatically manages digital identities such as Certificates, Keys and Credentials for the users and the machine, enabling enrollment, roaming and other services.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\CertificateServicesClient\UserTask-Roam
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Certificate Services Client automatically manages digital identities such as Certificates, Keys and Credentials for the users and the machine, enabling enrollment, roaming and other services.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\CertificateServicesClient\UserTask-Roam
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Certificate Services Client automatically manages digital identities such as Certificates, Keys and Credentials for the users and the machine, enabling enrollment, roaming and other services.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Customer Experience Improvement Program
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Customer Experience Improvement Program\Consolidator
+Next Run Time:                        10/28/2026 11:00:00 AM
+Status:                               Could not start
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:57:25 PM
+Last Result:                          -2147479295
+Author:                               Microsoft Corporation
+Task To Run:                          %SystemRoot%\System32\wsqmcons.exe 
+Start In:                             N/A
+Comment:                              If the user has consented to participate in the Windows Customer Experience Improvement Program, this job collects and sends usage data to Microsoft.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly 
+Start Time:                           12:00:00 AM
+Start Date:                           1/2/2004
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        19 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask
+Next Run Time:                        10/29/2026 3:30:00 AM
+Status:                               Unknown
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/19/2019 3:30:00 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              The Kernel CEIP (Customer Experience Improvement Program) task collects additional information about the system and sends this data to Microsoft.  If the user has not consented to participate in Windows CEIP, this task does nothing.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 3 minutes, If Not Idle Retry For 1020 minutes
+Power Management:                     No Start On Batteries
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Weekly
+Start Time:                           3:30:00 AM
+Start Date:                           9/1/2008
+End Date:                             N/A
+Days:                                 THU
+Months:                               Every 1 week(s)
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Customer Experience Improvement Program\UsbCeip
+Next Run Time:                        10/30/2026 1:30:00 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:57:25 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              The USB CEIP (Customer Experience Improvement Program) task collects Universal Serial Bus related statistics and information about your machine and sends it to the Windows Device Connectivity engineering group at Microsoft.  The information received is 
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           1:30:00 AM
+Start Date:                           4/25/2008
+End Date:                             N/A
+Days:                                 Every 3 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\Defrag
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Defrag\ScheduledDefrag
+Next Run Time:                        10/28/2026 2:48:35 AM
+Status:                               Unknown
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/18/2019 2:17:43 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\defrag.exe -c
+Start In:                             N/A
+Comment:                              This task defragments the computers hard disk drives.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 3 minutes, If Not Idle Retry For 10080 minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Weekly
+Start Time:                           1:00:00 AM
+Start Date:                           1/1/2005
+End Date:                             N/A
+Days:                                 WED
+Months:                               Every 1 week(s)
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\Diagnosis
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Diagnosis\Scheduled
+Next Run Time:                        11/1/2026 1:00:00 AM
+Status:                               Unknown
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/22/2019 1:00:00 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              The Windows Scheduled Maintenance Task performs periodic maintenance of the computer system by fixing problems automatically or reporting them through the Action Center.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 10 minutes, If Not Idle Retry For 480 minutes
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Weekly
+Start Time:                           1:00:00 AM
+Start Date:                           1/1/2004
+End Date:                             N/A
+Days:                                 SUN
+Months:                               Every 1 week(s)
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\DiskDiagnostic
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/23/2018 9:39:14 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe dfdts.dll,DfdGetDefaultPolicyAndSMART
+Start In:                             N/A
+Comment:                              The Windows Disk Diagnostic reports general disk and system information to Microsoft for users participating in the Customer Experience Program.
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Weekly
+Start Time:                           1:00:00 AM
+Start Date:                           1/1/2004
+End Date:                             N/A
+Days:                                 SUN
+Months:                               Every 2 week(s)
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\DFDWiz.exe 
+Start In:                             N/A
+Comment:                              The Microsoft-Windows-DiskDiagnosticResolver warns users about faults reported by hard disks that support the Self Monitoring and Reporting Technology (S.M.A.R.T.) standard. This task is triggered automatically by the Diagnostic Policy Service when a S.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Location
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Location\Notifications
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %windir%\System32\LocationNotifications.exe 
+Start In:                             N/A
+Comment:                              Location Activity
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Authenticated Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Maintenance
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Maintenance\WinSAT
+Next Run Time:                        Disabled
+Status:                               Could not start
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/28/2018 10:52:47 AM
+Last Result:                          -2147467259
+Author:                               Microsoft
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Measures a system's performance and capabilities
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Administrators
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At idle time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Media Center
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\ActivateWindowsSearch
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /DoActivateWindowsSearch
+Start In:                             N/A
+Comment:                              Privileged Media Center Search Reindexing job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\ConfigureInternetTimeService
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /DoConfigureInternetTimeService
+Start In:                             N/A
+Comment:                              Privileged Media Center Time Update Service setting job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\DispatchRecoveryTasks
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /DoRecoveryTasks $(Arg0)
+Start In:                             N/A
+Comment:                              Privileged Media Center Recovery Task Dispatcher job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\ehDRMInit
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /DRMInit
+Start In:                             N/A
+Comment:                              Privileged Media Center DRM initialization job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\InstallPlayReady
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /InstallPlayReady $(Arg0)
+Start In:                             N/A
+Comment:                              Privileged Media Center PlayReady install job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\mcupdate
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\mcupdate $(Arg0)
+Start In:                             N/A
+Comment:                              Check for Media Center updates.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          NETWORK SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\MediaCenterRecoveryTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          Multiple actions
+Start In:                             Multiple actions
+Comment:                              Perform Media Center Recovery activities
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\ObjectStoreRecoveryTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          Multiple actions
+Start In:                             Multiple actions
+Comment:                              Perform Object Store Recovery activities
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          NETWORK SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\OCURActivate
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /OCURActivate
+Start In:                             N/A
+Comment:                              Privileged Media Center OCUR activation job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\OCURDiscovery
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /OCURDiscovery $(Arg0)
+Start In:                             N/A
+Comment:                              Privileged Media Center OCUR discovery job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\PBDADiscovery
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /PBDADiscovery
+Start In:                             N/A
+Comment:                              Privileged Media Center OCUR discovery job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\PBDADiscoveryW1
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /wait:7 /PBDADiscovery
+Start In:                             N/A
+Comment:                              Privileged Media Center OCUR discovery job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\PBDADiscoveryW2
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /wait:90 /PBDADiscovery
+Start In:                             N/A
+Comment:                              Privileged Media Center OCUR discovery job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\PeriodicScanRetry
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %windir%\ehome\MCUpdate.exe -pscn 0
+Start In:                             N/A
+Comment:                              Background periodic scanner - PeriodicScanRetry
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          NETWORK SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only
+Start Time:                           5:33:00 PM
+Start Date:                           9/9/2006
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\PvrRecoveryTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          Multiple actions
+Start In:                             Multiple actions
+Comment:                              Perform Pvr Recovery activities
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          NETWORK SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\PvrScheduleTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          Multiple actions
+Start In:                             Multiple actions
+Comment:                              Perform PVR Scheduling activities
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          NETWORK SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\RecordingRestart
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehrec /RestartRecording
+Start In:                             N/A
+Comment:                              Restarts recordings after a power failure.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          NETWORK SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\RegisterSearch
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /DoRegisterSearch $(Arg0)
+Start In:                             N/A
+Comment:                              Privileged Media Center Search registration job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\ReindexSearchRoot
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /DoReindexSearchRoot
+Start In:                             N/A
+Comment:                              Privileged Media Center Search Reindexing job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\SqlLiteRecoveryTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          Multiple actions
+Start In:                             Multiple actions
+Comment:                              Perform Data Recovery activities
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          NETWORK SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Media Center\UpdateRecordPath
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          %SystemRoot%\ehome\ehPrivJob.exe /DoUpdateRecordPath $(Arg0)
+Start In:                             N/A
+Comment:                              Privileged Media Center Recorder Permission setting job
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\MemoryDiagnostic
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\MemoryDiagnostic\CorruptionDetector
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Task for launching the Memory Diagnostic
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\MemoryDiagnostic\DecompressionFailureDetector
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Task for launching the Memory Diagnostic
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\MobilePC
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\MobilePC\HotStart
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:52:11 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Launches applications configured for Windows HotStart
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Authenticated Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\MUI
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\MUI\LPRemove
+Next Run Time:                        N/A
+Status:                               Unknown
+Logon Mode:                           Interactive/Background
+Last Run Time:                        9/2/2019 7:13:03 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\lpremove.exe 
+Start In:                             N/A
+Comment:                              Launch language cleanup tool
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 10 minutes, If Not Idle Retry For 10 minutes Stop the task if Idle State end
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 09:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Multimedia
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Multimedia\SystemSoundsService
+Next Run Time:                        N/A
+Status:                               Running
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:52:10 PM
+Last Result:                          267009
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              System Sounds User Mode Agent
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\NetTrace
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\NetTrace\GatherNetworkInfo
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft
+Task To Run:                          %windir%\system32\gatherNetworkInfo.vbs 
+Start In:                             $(Arg1)
+Comment:                              Network information collector
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Offline Files
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Offline Files\Background Synchronization
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task controls periodic background synchronization of Offline Files when the user is working in an offline mode.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Authenticated Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 24:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly 
+Start Time:                           12:00:00 AM
+Start Date:                           1/1/2008
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        6 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Offline Files\Logon Synchronization
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task initiates synchronization of Offline Files when a user logs onto the system.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Authenticated Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 24:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\PerfTrack
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\PerfTrack\BackgroundConfigSurveyor
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Performance Tracing Idle Task: Background configuration surveyor
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     No Start On Batteries
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At idle time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\PerfTrack\BackgroundConfigSurveyor
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Performance Tracing Idle Task: Background configuration surveyor
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     No Start On Batteries
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           3:00:00 AM
+Start Date:                           5/30/2008
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\PLA
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Power Efficiency Diagnostics
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem
+Next Run Time:                        11/10/2026 6:54:23 AM
+Status:                               Unknown
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/9/2019 6:36:44 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %SystemRoot%\System32\powercfg.exe -energy -auto
+Start In:                             N/A
+Comment:                              This job analyzes the system looking for conditions that may cause high energy use.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 5 minutes, If Not Idle Retry For 120 minutes
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 00:05:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           6:00:00 AM
+Start Date:                           1/1/2008
+End Date:                             N/A
+Days:                                 Every 14 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\RAC
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\RAC\RacTask
+Next Run Time:                        10/27/2026 10:13:13 PM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 9:08:45 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Microsoft Reliability Analysis task to process system reliability data.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\RAC\RacTask
+Next Run Time:                        10/27/2026 10:02:05 PM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 9:08:45 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Microsoft Reliability Analysis task to process system reliability data.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly 
+Start Time:                           12:00:00 AM
+Start Date:                           3/31/2008
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        1 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\Ras
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Ras\MobilityManager
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Provides support for the switching of mobility enabled VPN connections if their underlying interface goes down.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Registry
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Registry\RegIdleBackup
+Next Run Time:                        11/2/2026 12:00:45 AM
+Status:                               Unknown
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/22/2019 12:58:23 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Registry Idle Backup Task
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 3 minutes, If Not Idle Retry For 1380 minutes Stop the task if Idle State end
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           12:00:00 AM
+Start Date:                           1/1/2008
+End Date:                             N/A
+Days:                                 Every 10 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\RemoteAssistance
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\RemoteAssistance\RemoteAssistanceTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/28/2018 8:40:58 AM
+Last Result:                          0
+Author:                               Microsoft
+Task To Run:                          %windir%\system32\RAServer.exe /offerraupdate
+Start In:                             %windir%
+Comment:                              Checks group policy for changes relevant to Remote Assistance
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\RemoteAssistance\RemoteAssistanceTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/28/2018 8:40:58 AM
+Last Result:                          0
+Author:                               Microsoft
+Task To Run:                          %windir%\system32\RAServer.exe /offerraupdate
+Start In:                             %windir%
+Comment:                              Checks group policy for changes relevant to Remote Assistance
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Shell
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Shell\WindowsParentalControls
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Notifications for actions taken by Windows Parental Controls.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Authenticated Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Shell\WindowsParentalControlsMigration
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        7/14/2009 7:09:03 AM
+Last Result:                          0
+Author:                               Microsoft
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Migration for Windows Parental Controls.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\SideShow
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\SideShow\AutoWake
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task automatically wakes the computer and then puts it to sleep when automatic wake is turned on for a Windows SideShow-compatible device.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\SideShow\GadgetManager
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task manages and synchronizes metadata for the installed gadgets on a Windows SideShow-compatible device.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\SideShow\SessionAgent
+Next Run Time:                        Disabled
+Status:                               Could not start
+Logon Mode:                           Interactive/Background
+Last Run Time:                        6/30/2017 7:41:48 PM
+Last Result:                          -2147023729
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task manages the session behavior when multiple user accounts exist on a Windows SideShow-compatible device.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\SideShow\SystemDataProviders
+Next Run Time:                        Disabled
+Status:                               Could not start
+Logon Mode:                           Interactive/Background
+Last Run Time:                        6/30/2017 7:42:03 PM
+Last Result:                          -2147023729
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task provides system data for the clock, power source, wireless network strength, and volume on a Windows SideShow-compatible device.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\SoftwareProtectionPlatform
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\SoftwareProtectionPlatform\SvcRestartTask
+Next Run Time:                        11/26/2026 7:47:31 PM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          sc.exe start sppsvc
+Start In:                             N/A
+Comment:                              This task restarts the Software Protection Platform service at the specified time
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          NETWORK SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           6:47:31 PM
+Start Date:                           11/26/2026
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\SystemRestore
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\SystemRestore\SR
+Next Run Time:                        10/28/2026 12:00:00 AM
+Status:                               Unknown
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/22/2019 12:00:00 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe /d srrstr.dll,ExecuteScheduledSPPCreation
+Start In:                             N/A
+Comment:                              This task creates regular system protection points.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 10 minutes, If Not Idle Retry For 1380 minutes
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           12:00:00 AM
+Start Date:                           6/14/2005
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\SystemRestore\SR
+Next Run Time:                        10/28/2026 12:00:00 AM
+Status:                               Unknown
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/22/2019 12:00:00 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe /d srrstr.dll,ExecuteScheduledSPPCreation
+Start In:                             N/A
+Comment:                              This task creates regular system protection points.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 10 minutes, If Not Idle Retry For 1380 minutes
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Task Manager
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Task Manager\Interactive
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Runs a task as the interactive user.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Tcpip
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Tcpip\IpAddressConflict1
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe ndfapi.dll,NdfRunDllDuplicateIPOffendingSystem
+Start In:                             N/A
+Comment:                              This event is triggered when an IP address conflict is detected.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Tcpip\IpAddressConflict2
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe ndfapi.dll,NdfRunDllDuplicateIPDefendingSystem
+Start In:                             N/A
+Comment:                              This event is triggered when an IP address conflict is detected.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\TextServicesFramework
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\TextServicesFramework\MsCtfMonitor
+Next Run Time:                        N/A
+Status:                               Running
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:52:11 PM
+Last Result:                          267009
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              TextServicesFramework monitor task
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Time Synchronization
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Time Synchronization\SynchronizeTime
+Next Run Time:                        11/1/2026 1:00:00 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:57:25 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\sc.exe start w32time task_started
+Start In:                             N/A
+Comment:                              Maintains date and time synchronization on all clients and servers in the network. If this service is stopped, date and time synchronization will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Weekly
+Start Time:                           1:00:00 AM
+Start Date:                           1/1/2005
+End Date:                             N/A
+Days:                                 SUN
+Months:                               Every 1 week(s)
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\UPnP
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\UPnP\UPnPHostConfig
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft
+Task To Run:                          sc.exe config upnphost start= auto
+Start In:                             N/A
+Comment:                              Set UPnPHost service to Auto-Start
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\User Profile Service
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\User Profile Service\HiveUploadTask
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task will automatically upload a roaming user profile's registry hive to its network location.
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for 10 minutes, If Not Idle Retry For 120 minutes
+Power Management:                     Stop On Battery Mode
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly 
+Start Time:                           12:00:00 AM
+Start Date:                           8/28/2007
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        12 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\WDI
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\WDI\ResolutionHost
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              The Windows Diagnostic Infrastructure Resolution host enables interactive resolutions for system problems detected by the Diagnostic Policy Service. It is triggered when necessary by the Diagnostic Policy Service in the appropriate user session. If the 
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Windows Error Reporting
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Windows Error Reporting\QueueReporting
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 8:05:11 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\wermgr.exe -queuereporting
+Start In:                             N/A
+Comment:                              Windows Error Reporting task to process queued reports.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Windows Filtering Platform
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Windows Filtering Platform\BfeOnServiceStartTypeChange
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe bfe.dll,BfeOnServiceStartTypeChange
+Start In:                             N/A
+Comment:                              This task adjusts the start type for firewall-triggered services when the start type of the Base Filtering Engine (BFE) is disabled.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Windows Media Sharing
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\Windows Media Sharing\UpdateLibrary
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          "%ProgramFiles%\Windows Media Player\wmpnscfg.exe" 
+Start In:                             N/A
+Comment:                              This task updates the cached list of folders and the security permissions on any new files in a user's shared media library.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Authenticated Users
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\WindowsBackup
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\WindowsBackup\ConfigNotification
+Next Run Time:                        10/28/2026 10:00:00 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        10/27/2026 7:57:25 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %systemroot%\System32\sdclt.exe /CONFIGNOTIFICATION
+Start In:                             N/A
+Comment:                              This scheduled task notifies the user that Windows Backup has not been configured.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           10:00:00 AM
+Start Date:                           11/28/2010
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\WindowsColorSystem
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\WindowsColorSystem\Calibration Loader
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        7/14/2009 7:09:01 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task applies color calibration settings.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows\WindowsColorSystem\Calibration Loader
+Next Run Time:                        Disabled
+Status:                               
+Logon Mode:                           Interactive/Background
+Last Run Time:                        7/14/2009 7:09:01 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task applies color calibration settings.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows Defender
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows Defender\MP Scheduled Scan
+Next Run Time:                        10/28/2026 2:40:12 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          c:\program files\windows defender\MpCmdRun.exe Scan -ScheduleJob -WinTask -RestrictPrivilegesScan
+Start In:                             N/A
+Comment:                              Scheduled Scan
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 1 minutes, If Not Idle Retry For 240 minutes
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily 
+Start Time:                           2:40:12 AM
+Start Date:                           1/1/2000
+End Date:                             1/1/2100
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             FORENSE-06
+TaskName:                             \Microsoft\Windows Defender\MpIdleTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        N/A
+Last Result:                          1
+Author:                               N/A
+Task To Run:                          c:\program files\windows defender\MpCmdRun.exe -IdleTask -TaskName MpIdleTask
+Start In:                             N/A
+Comment:                              Private Idle Task
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 1 minutes, If Not Idle Retry For 0 minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Enabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At idle time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+

@@ -1,0 +1,278 @@
+﻿
+
+ProcessId       : 0
+ParentProcessId : 0
+Name            : System Idle Process
+CreationDate    : 
+ExecutablePath  : 
+CommandLine     : 
+
+ProcessId       : 4
+ParentProcessId : 0
+Name            : System
+CreationDate    : 20261027195123.546875+060
+ExecutablePath  : 
+CommandLine     : 
+
+ProcessId       : 280
+ParentProcessId : 4
+Name            : smss.exe
+CreationDate    : 20261027195123.546875+060
+ExecutablePath  : 
+CommandLine     : \SystemRoot\System32\smss.exe
+
+ProcessId       : 352
+ParentProcessId : 344
+Name            : csrss.exe
+CreationDate    : 20261027195124.250000+060
+ExecutablePath  : C:\Windows\system32\csrss.exe
+CommandLine     : %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+
+ProcessId       : 400
+ParentProcessId : 344
+Name            : wininit.exe
+CreationDate    : 20261027195124.375000+060
+ExecutablePath  : C:\Windows\system32\wininit.exe
+CommandLine     : wininit.exe
+
+ProcessId       : 412
+ParentProcessId : 392
+Name            : csrss.exe
+CreationDate    : 20261027195124.390625+060
+ExecutablePath  : C:\Windows\system32\csrss.exe
+CommandLine     : %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+
+ProcessId       : 460
+ParentProcessId : 392
+Name            : winlogon.exe
+CreationDate    : 20261027195124.421875+060
+ExecutablePath  : C:\Windows\system32\winlogon.exe
+CommandLine     : winlogon.exe
+
+ProcessId       : 496
+ParentProcessId : 400
+Name            : services.exe
+CreationDate    : 20261027195124.437500+060
+ExecutablePath  : C:\Windows\system32\services.exe
+CommandLine     : C:\Windows\system32\services.exe
+
+ProcessId       : 504
+ParentProcessId : 400
+Name            : lsass.exe
+CreationDate    : 20261027195124.468750+060
+ExecutablePath  : C:\Windows\system32\lsass.exe
+CommandLine     : C:\Windows\system32\lsass.exe
+
+ProcessId       : 512
+ParentProcessId : 400
+Name            : lsm.exe
+CreationDate    : 20261027195124.468750+060
+ExecutablePath  : C:\Windows\system32\lsm.exe
+CommandLine     : C:\Windows\system32\lsm.exe
+
+ProcessId       : 616
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195124.578125+060
+ExecutablePath  : C:\Windows\system32\svchost.exe
+CommandLine     : C:\Windows\system32\svchost.exe -k DcomLaunch
+
+ProcessId       : 680
+ParentProcessId : 496
+Name            : vmacthlp.exe
+CreationDate    : 20261027195124.625000+060
+ExecutablePath  : C:\Program Files\VMware\VMware Tools\vmacthlp.exe
+CommandLine     : "C:\Program Files\VMware\VMware Tools\vmacthlp.exe"
+
+ProcessId       : 712
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195124.640625+060
+ExecutablePath  : C:\Windows\system32\svchost.exe
+CommandLine     : C:\Windows\system32\svchost.exe -k RPCSS
+
+ProcessId       : 764
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195124.671875+060
+ExecutablePath  : C:\Windows\System32\svchost.exe
+CommandLine     : C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted
+
+ProcessId       : 852
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195124.718750+060
+ExecutablePath  : C:\Windows\System32\svchost.exe
+CommandLine     : C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted
+
+ProcessId       : 936
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195124.859375+060
+ExecutablePath  : C:\Windows\system32\svchost.exe
+CommandLine     : C:\Windows\system32\svchost.exe -k netsvcs
+
+ProcessId       : 292
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195124.921875+060
+ExecutablePath  : C:\Windows\system32\svchost.exe
+CommandLine     : C:\Windows\system32\svchost.exe -k LocalService
+
+ProcessId       : 636
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195124.968750+060
+ExecutablePath  : C:\Windows\system32\svchost.exe
+CommandLine     : C:\Windows\system32\svchost.exe -k NetworkService
+
+ProcessId       : 1060
+ParentProcessId : 496
+Name            : spoolsv.exe
+CreationDate    : 20261027195125.125000+060
+ExecutablePath  : C:\Windows\System32\spoolsv.exe
+CommandLine     : C:\Windows\System32\spoolsv.exe
+
+ProcessId       : 1096
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195125.171875+060
+ExecutablePath  : C:\Windows\system32\svchost.exe
+CommandLine     : C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork
+
+ProcessId       : 1180
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195125.296875+060
+ExecutablePath  : C:\Windows\system32\svchost.exe
+CommandLine     : C:\Windows\system32\svchost.exe -k apphost
+
+ProcessId       : 1276
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195125.375000+060
+ExecutablePath  : C:\Windows\system32\svchost.exe
+CommandLine     : C:\Windows\system32\svchost.exe -k ftpsvc
+
+ProcessId       : 1324
+ParentProcessId : 496
+Name            : mqsvc.exe
+CreationDate    : 20261027195125.421875+060
+ExecutablePath  : C:\Windows\system32\mqsvc.exe
+CommandLine     : C:\Windows\system32\mqsvc.exe
+
+ProcessId       : 1444
+ParentProcessId : 496
+Name            : Service_KMS.exe
+CreationDate    : 20261027195125.531250+060
+ExecutablePath  : C:\Program Files\KMSpico\Service_KMS.exe
+CommandLine     : "C:\Program Files\KMSpico\Service_KMS.exe"
+
+ProcessId       : 1504
+ParentProcessId : 496
+Name            : VGAuthService.exe
+CreationDate    : 20261027195125.671875+060
+ExecutablePath  : C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe
+CommandLine     : "C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe"
+
+ProcessId       : 1580
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195125.906250+060
+ExecutablePath  : C:\Windows\system32\svchost.exe
+CommandLine     : C:\Windows\system32\svchost.exe -k iissvcs
+
+ProcessId       : 1888
+ParentProcessId : 616
+Name            : WmiPrvSE.exe
+CreationDate    : 20261027195126.328125+060
+ExecutablePath  : C:\Windows\system32\wbem\wmiprvse.exe
+CommandLine     : C:\Windows\system32\wbem\wmiprvse.exe
+
+ProcessId       : 1724
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195126.687500+060
+ExecutablePath  : C:\Windows\system32\svchost.exe
+CommandLine     : C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted
+
+ProcessId       : 2320
+ParentProcessId : 496
+Name            : msdtc.exe
+CreationDate    : 20261027195129.359375+060
+ExecutablePath  : C:\Windows\System32\msdtc.exe
+CommandLine     : C:\Windows\System32\msdtc.exe
+
+ProcessId       : 2660
+ParentProcessId : 496
+Name            : taskhost.exe
+CreationDate    : 20261027195210.859375+060
+ExecutablePath  : C:\Windows\system32\taskhost.exe
+CommandLine     : "taskhost.exe"
+
+ProcessId       : 2728
+ParentProcessId : 852
+Name            : dwm.exe
+CreationDate    : 20261027195210.921875+060
+ExecutablePath  : C:\Windows\system32\Dwm.exe
+CommandLine     : "C:\Windows\system32\Dwm.exe"
+
+ProcessId       : 2740
+ParentProcessId : 2720
+Name            : explorer.exe
+CreationDate    : 20261027195210.921875+060
+ExecutablePath  : C:\Windows\Explorer.EXE
+CommandLine     : C:\Windows\Explorer.EXE
+
+ProcessId       : 2876
+ParentProcessId : 2740
+Name            : wscript.exe
+CreationDate    : 20261027195211.359375+060
+ExecutablePath  : C:\Windows\System32\WScript.exe
+CommandLine     : "C:\Windows\System32\WScript.exe" "C:\Windows\Temp\jnQGgUrmj.vbs" 
+
+ProcessId       : 3040
+ParentProcessId : 496
+Name            : SearchIndexer.exe
+CreationDate    : 20261027195217.265625+060
+ExecutablePath  : C:\Windows\system32\SearchIndexer.exe
+CommandLine     : C:\Windows\system32\SearchIndexer.exe /Embedding
+
+ProcessId       : 1240
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195326.656250+060
+ExecutablePath  : C:\Windows\system32\svchost.exe
+CommandLine     : C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation
+
+ProcessId       : 544
+ParentProcessId : 496
+Name            : svchost.exe
+CreationDate    : 20261027195326.781250+060
+ExecutablePath  : C:\Windows\System32\svchost.exe
+CommandLine     : C:\Windows\System32\svchost.exe -k secsvcs
+
+ProcessId       : 2584
+ParentProcessId : 2740
+Name            : notepad.exe
+CreationDate    : 20261027202015.226625+060
+ExecutablePath  : C:\Windows\system32\notepad.exe
+CommandLine     : "C:\Windows\system32\notepad.exe" 
+
+ProcessId       : 2236
+ParentProcessId : 2740
+Name            : powershell.exe
+CreationDate    : 20261027214152.539125+060
+ExecutablePath  : C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe
+CommandLine     : "C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe" 
+
+ProcessId       : 2496
+ParentProcessId : 412
+Name            : conhost.exe
+CreationDate    : 20261027214152.539125+060
+ExecutablePath  : C:\Windows\system32\conhost.exe
+CommandLine     : \??\C:\Windows\system32\conhost.exe
+
+
+
+

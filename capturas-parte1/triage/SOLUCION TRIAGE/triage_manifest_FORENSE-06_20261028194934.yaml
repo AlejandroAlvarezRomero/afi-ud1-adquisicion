@@ -1,0 +1,10 @@
+# Manifiesto de la ejecucion del triage
+host: "FORENSE-06"
+user: "Administrador"
+os: "Microsoft Windows [Version 6.1.7601]"
+command: "velociraptor_win7.exe -- --embedded_config triage.collector"
+start_local: "20261028194934"
+end_local: "20261028195010"
+exit_code: 0
+outputs:
+  - {file: "Triage-FORENSE-06-2026-10-28T18_49_34Z.zip", size_bytes: 110611740}

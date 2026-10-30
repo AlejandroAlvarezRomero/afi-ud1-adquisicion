@@ -1,0 +1,23 @@
+﻿
+
+Name       : \\?\Volume{bd47bc6f-5e05-11e7-8ba9-806e6f6e6963}\
+Label      : System Reserved
+FileSystem : NTFS
+Capacity   : 104853504
+FreeSpace  : 75362304
+
+Name       : E:\
+Label      : USB_respuesta
+FileSystem : NTFS
+Capacity   : 21471686656
+FreeSpace  : 19212845056
+
+Name       : C:\
+Label      : 
+FileSystem : NTFS
+Capacity   : 34252779520
+FreeSpace  : 22633033728
+
+
+
+

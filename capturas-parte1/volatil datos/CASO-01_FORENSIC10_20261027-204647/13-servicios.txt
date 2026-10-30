@@ -1,0 +1,169 @@
+﻿
+Name                                State   StartMode StartName                   PathName                                                                                 
+----                                -----   --------- ---------                   --------                                                                                 
+AeLookupSvc                         Running Manual    localSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+ALG                                 Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\System32\alg.exe                                                              
+AppHostSvc                          Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k apphost                                               
+AppIDSvc                            Stopped Manual    NT Authority\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation                        
+Appinfo                             Running Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+AppMgmt                             Running Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+aspnet_state                        Stopped Manual    NT AUTHORITY\NetworkService C:\Windows\Microsoft.NET\Framework64\v4.0.30319\aspnet_state.exe                         
+AudioEndpointBuilder                Running Auto      LocalSystem                 C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted                          
+AudioSrv                            Running Auto      NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted                         
+AxInstSV                            Stopped Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k AxInstSVGroup                                         
+BDESVC                              Stopped Manual    localSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+BFE                                 Running Auto      NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork                                 
+BITS                                Stopped Manual    LocalSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+Browser                             Running Manual    LocalSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+bthserv                             Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k bthsvcs                                               
+CertPropSvc                         Running Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+clr_optimization_v2.0.50727_32      Stopped Disabled  LocalSystem                 C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorsvw.exe                               
+clr_optimization_v2.0.50727_64      Stopped Disabled  LocalSystem                 C:\Windows\Microsoft.NET\Framework64\v2.0.50727\mscorsvw.exe                             
+clr_optimization_v4.0.30319_32      Stopped Auto      LocalSystem                 C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorsvw.exe                               
+clr_optimization_v4.0.30319_64      Stopped Auto      LocalSystem                 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe                             
+COMSysApp                           Stopped Manual    LocalSystem                 C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}        
+CryptSvc                            Running Auto      NT Authority\NetworkService C:\Windows\system32\svchost.exe -k NetworkService                                        
+CscService                          Running Auto      LocalSystem                 C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted                          
+DcomLaunch                          Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k DcomLaunch                                            
+defragsvc                           Stopped Manual    localSystem                 C:\Windows\system32\svchost.exe -k defragsvc                                             
+Dhcp                                Running Auto      NT Authority\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted                         
+Dnscache                            Running Auto      NT AUTHORITY\NetworkService C:\Windows\system32\svchost.exe -k NetworkService                                        
+dot3svc                             Stopped Manual    localSystem                 C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted                          
+DPS                                 Running Auto      NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork                                 
+EapHost                             Stopped Manual    localSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+EFS                                 Stopped Manual    LocalSystem                 C:\Windows\System32\lsass.exe                                                            
+ehRecvr                             Stopped Manual    NT AUTHORITY\networkService C:\Windows\ehome\ehRecvr.exe                                                             
+ehSched                             Stopped Manual    NT AUTHORITY\networkService C:\Windows\ehome\ehsched.exe                                                             
+eventlog                            Running Auto      NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted                         
+EventSystem                         Running Auto      NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalService                                          
+Fax                                 Stopped Manual    NT AUTHORITY\NetworkService C:\Windows\system32\fxssvc.exe                                                           
+fdPHost                             Running Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalService                                          
+FDResPub                            Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation                        
+FontCache                           Running Auto      NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation                        
+FontCache3.0.0.0                    Stopped Manual    NT Authority\LocalService   C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe                  
+ftpsvc                              Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k ftpsvc                                                
+gpsvc                               Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+hidserv                             Stopped Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted                          
+hkmsvc                              Stopped Manual    localSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+HomeGroupListener                   Stopped Manual    LocalSystem                 C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted                          
+HomeGroupProvider                   Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted                         
+idsvc                               Stopped Manual    LocalSystem                 "C:\Windows\Microsoft.NET\Framework64\v3.0\Windows Communication Foundation\infocard.exe"
+IKEEXT                              Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+IPBusEnum                           Stopped Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted                          
+iphlpsvc                            Running Auto      LocalSystem                 C:\Windows\System32\svchost.exe -k NetSvcs                                               
+KeyIso                              Stopped Manual    LocalSystem                 C:\Windows\system32\lsass.exe                                                            
+KtmRm                               Stopped Manual    NT AUTHORITY\NetworkService C:\Windows\System32\svchost.exe -k NetworkServiceAndNoImpersonation                      
+LanmanServer                        Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+LanmanWorkstation                   Running Auto      NT AUTHORITY\NetworkService C:\Windows\System32\svchost.exe -k NetworkService                                        
+lltdsvc                             Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalService                                          
+lmhosts                             Running Auto      NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted                         
+Mcx2Svc                             Stopped Disabled  NT Authority\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation                        
+MMCSS                               Stopped Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+MpsSvc                              Running Auto      NT Authority\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork                                 
+MSDTC                               Running Manual    NT AUTHORITY\NetworkService C:\Windows\System32\msdtc.exe                                                            
+MSiSCSI                             Stopped Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+msiserver                           Stopped Manual    LocalSystem                 C:\Windows\system32\msiexec.exe /V                                                       
+MSMQ                                Running Auto      NT Authority\NetworkService C:\Windows\system32\mqsvc.exe                                                            
+napagent                            Stopped Manual    NT AUTHORITY\NetworkService C:\Windows\System32\svchost.exe -k NetworkService                                        
+Netlogon                            Stopped Manual    LocalSystem                 C:\Windows\system32\lsass.exe                                                            
+Netman                              Running Manual    LocalSystem                 C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted                          
+NetMsmqActivator                    Stopped Disabled  NT AUTHORITY\NetworkService "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe" -NetMsmqActivator        
+NetPipeActivator                    Stopped Disabled  NT AUTHORITY\LocalService   C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe                            
+netprofm                            Running Manual    NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalService                                          
+NetTcpActivator                     Stopped Disabled  NT AUTHORITY\LocalService   C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe                            
+NetTcpPortSharing                   Stopped Disabled  NT AUTHORITY\LocalService   C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SMSvcHost.exe                            
+NlaSvc                              Running Auto      NT AUTHORITY\NetworkService C:\Windows\System32\svchost.exe -k NetworkService                                        
+nsi                                 Running Auto      NT Authority\LocalService   C:\Windows\system32\svchost.exe -k LocalService                                          
+p2pimsvc                            Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServicePeerNet                                   
+p2psvc                              Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServicePeerNet                                   
+PcaSvc                              Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted                          
+PeerDistSvc                         Stopped Manual    NT AUTHORITY\NetworkService C:\Windows\System32\svchost.exe -k PeerDist                                              
+PerfHost                            Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\SysWow64\perfhost.exe                                                         
+pla                                 Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServiceNoNetwork                                 
+PlugPlay                            Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k DcomLaunch                                            
+PNRPAutoReg                         Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServicePeerNet                                   
+PNRPsvc                             Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServicePeerNet                                   
+PolicyAgent                         Running Manual    NT Authority\NetworkService C:\Windows\system32\svchost.exe -k NetworkServiceNetworkRestricted                       
+Power                               Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k DcomLaunch                                            
+ProfSvc                             Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+ProtectedStorage                    Stopped Manual    LocalSystem                 C:\Windows\system32\lsass.exe                                                            
+QWAVE                               Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation                        
+RasAuto                             Stopped Manual    localSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+RasMan                              Stopped Manual    localSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+RemoteAccess                        Stopped Disabled  localSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+RemoteRegistry                      Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k regsvc                                                
+RpcEptMapper                        Running Auto      NT AUTHORITY\NetworkService C:\Windows\system32\svchost.exe -k RPCSS                                                 
+RpcLocator                          Stopped Manual    NT AUTHORITY\NetworkService C:\Windows\system32\locator.exe                                                          
+RpcSs                               Running Auto      NT AUTHORITY\NetworkService C:\Windows\system32\svchost.exe -k rpcss                                                 
+SamSs                               Running Auto      LocalSystem                 C:\Windows\system32\lsass.exe                                                            
+SCardSvr                            Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation                        
+Schedule                            Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+SCPolicySvc                         Stopped Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+SDRSVC                              Stopped Manual    localSystem                 C:\Windows\system32\svchost.exe -k SDRSVC                                                
+seclogon                            Stopped Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+SENS                                Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+SensrSvc                            Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation                        
+Service KMSELDI                     Running Auto      LocalSystem                 C:\Program Files\KMSpico\Service_KMS.exe                                                 
+SessionEnv                          Running Manual    localSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+SharedAccess                        Stopped Disabled  LocalSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+ShellHWDetection                    Running Auto      LocalSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+SNMPTRAP                            Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\System32\snmptrap.exe                                                         
+Spooler                             Running Auto      LocalSystem                 C:\Windows\System32\spoolsv.exe                                                          
+sppsvc                              Stopped Auto      NT AUTHORITY\NetworkService C:\Windows\system32\sppsvc.exe                                                           
+sppuinotify                         Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalService                                          
+SSDPSRV                             Running Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation                        
+SstpSvc                             Stopped Manual    NT Authority\LocalService   C:\Windows\system32\svchost.exe -k LocalService                                          
+stisvc                              Stopped Manual    NT Authority\LocalService   C:\Windows\system32\svchost.exe -k imgsvc                                                
+StorSvc                             Stopped Manual    LocalSystem                 C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted                          
+swprv                               Stopped Manual    LocalSystem                 C:\Windows\System32\svchost.exe -k swprv                                                 
+SysMain                             Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted                          
+TabletInputService                  Stopped Manual    LocalSystem                 C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted                          
+TapiSrv                             Stopped Manual    NT AUTHORITY\NetworkService C:\Windows\System32\svchost.exe -k NetworkService                                        
+TBS                                 Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServiceAndNoImpersonation                        
+TermService                         Running Manual    NT Authority\NetworkService C:\Windows\System32\svchost.exe -k NetworkService                                        
+Themes                              Running Auto      LocalSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+THREADORDER                         Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalService                                          
+TlntSvr                             Stopped Disabled  NT AUTHORITY\LocalService   C:\Windows\System32\tlntsvr.exe                                                          
+TrkWks                              Running Auto      LocalSystem                 C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted                          
+TrustedInstaller                    Stopped Manual    localSystem                 C:\Windows\servicing\TrustedInstaller.exe                                                
+UI0Detect                           Stopped Manual    LocalSystem                 C:\Windows\system32\UI0Detect.exe                                                        
+UmRdpService                        Running Manual    localSystem                 C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted                          
+upnphost                            Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation                        
+UxSms                               Running Auto      localSystem                 C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted                          
+VaultSvc                            Stopped Manual    LocalSystem                 C:\Windows\system32\lsass.exe                                                            
+vds                                 Stopped Manual    LocalSystem                 C:\Windows\System32\vds.exe                                                              
+VGAuthService                       Running Auto      LocalSystem                 "C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe"                   
+VMTools                             Stopped Auto      LocalSystem                 "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"                                      
+vmvss                               Stopped Manual    LocalSystem                 C:\Windows\system32\dllhost.exe /Processid:{EF59763D-109A-4CC1-BAB5-BBD6AB1A5742}        
+VMware Physical Disk Helper Service Running Auto      LocalSystem                 "C:\Program Files\VMware\VMware Tools\vmacthlp.exe"                                      
+VSS                                 Stopped Manual    LocalSystem                 C:\Windows\system32\vssvc.exe                                                            
+W32Time                             Running Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalService                                          
+W3SVC                               Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k iissvcs                                               
+WAS                                 Running Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k iissvcs                                               
+wbengine                            Stopped Manual    localSystem                 "C:\Windows\system32\wbengine.exe"                                                       
+WbioSrvc                            Stopped Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k WbioSvcGroup                                          
+wcncsvc                             Running Manual    NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServiceAndNoImpersonation                        
+WcsPlugInService                    Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k wcssvc                                                
+WdiServiceHost                      Running Manual    NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalService                                          
+WdiSystemHost                       Stopped Manual    LocalSystem                 C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted                          
+WebClient                           Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalService                                          
+Wecsvc                              Stopped Manual    NT AUTHORITY\NetworkService C:\Windows\system32\svchost.exe -k NetworkService                                        
+wercplsupport                       Stopped Manual    localSystem                 C:\Windows\System32\svchost.exe -k netsvcs                                               
+WerSvc                              Stopped Manual    localSystem                 C:\Windows\System32\svchost.exe -k WerSvcGroup                                           
+WinDefend                           Running Auto      LocalSystem                 C:\Windows\System32\svchost.exe -k secsvcs                                               
+WinHttpAutoProxySvc                 Stopped Manual    NT AUTHORITY\LocalService   C:\Windows\system32\svchost.exe -k LocalService                                          
+Winmgmt                             Running Auto      localSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+WinRM                               Stopped Manual    NT AUTHORITY\NetworkService C:\Windows\System32\svchost.exe -k NetworkService                                        
+Wlansvc                             Stopped Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted                          
+wmiApSrv                            Stopped Manual    localSystem                 C:\Windows\system32\wbem\WmiApSrv.exe                                                    
+WMPNetworkSvc                       Stopped Manual    NT AUTHORITY\NetworkService "C:\Program Files\Windows Media Player\wmpnetwk.exe"                                     
+WPCSvc                              Stopped Manual    NT Authority\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted                         
+WPDBusEnum                          Stopped Manual    LocalSystem                 C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted                          
+wscsvc                              Running Auto      NT AUTHORITY\LocalService   C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted                         
+WSearch                             Running Auto      LocalSystem                 C:\Windows\system32\SearchIndexer.exe /Embedding                                         
+wuauserv                            Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k netsvcs                                               
+wudfsvc                             Running Auto      LocalSystem                 C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted                          
+WwanSvc                             Stopped Manual    NT Authority\LocalService   C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork                                 
+
+
+

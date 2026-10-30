@@ -1,0 +1,37 @@
+OS: Generic
+Artifacts:
+  Windows.Triage.Targets:
+    HighLevelTargets: '["_KapeTriage","_SANS_Triage"]'
+    Devices: '["C:"]'
+  Generic.Client.Info: {}
+  Windows.System.Pslist: {}
+  Windows.Network.Netstat: {}
+  Windows.Network.ArpCache: {}
+  Windows.System.Services: {}
+  Windows.System.TaskScheduler: {}
+  Windows.Sys.StartupItems: {}
+  Windows.Sys.Users: {}
+  Windows.Sys.Programs: {}
+  Windows.Sys.Drivers: {}
+  Windows.System.HostsFile: {}
+  Windows.System.Shares: {}
+Target: ZIP
+EncryptionScheme: None
+EncryptionArgs:
+  public_key: ""
+  password: ""
+OptVerbose: true
+OptBanner: true
+OptPrompt: true
+OptAdmin: true
+OptTempdir: ""
+OptLevel: 5
+OptConcurrency: 2
+OptFormat: jsonl
+OptOutputDirectory: ""
+OptFilenameTemplate: Triage-%Hostname%-%TIMESTAMP%
+OptCollectorFilename: ""
+OptCpuLimit: 0
+OptProgressTimeout: 1800
+OptTimeout: 0
+OptDeleteAtExit: false

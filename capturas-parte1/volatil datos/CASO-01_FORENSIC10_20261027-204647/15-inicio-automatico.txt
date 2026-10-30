@@ -1,0 +1,40 @@
+﻿
+
+Name     : BibwxXKf
+Command  : C:\Windows\TEMP\JOEvfoml.vbs
+Location : HKU\S-1-5-18\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+User     : NT AUTHORITY\SYSTEM
+
+Name     : Sidebar
+Command  : %ProgramFiles%\Windows Sidebar\Sidebar.exe /autoRun
+Location : HKU\S-1-5-19\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+User     : NT AUTHORITY\LOCAL SERVICE
+
+Name     : Sidebar
+Command  : %ProgramFiles%\Windows Sidebar\Sidebar.exe /autoRun
+Location : HKU\S-1-5-20\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+User     : NT AUTHORITY\NETWORK SERVICE
+
+Name     : BibwxXKf
+Command  : C:\Windows\TEMP\JOEvfoml.vbs
+Location : HKU\.DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+User     : .DEFAULT
+
+Name     : VMware User Process
+Command  : "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr
+Location : HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+User     : Public
+
+Name     : GZARMViUQp
+Command  : C:\Windows\TEMP\jnQGgUrmj.vbs
+Location : HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+User     : Public
+
+Name     : ijgWsjRRs
+Command  : C:\Windows\TEMP\HoVgcPUXNBk.vbs
+Location : HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+User     : Public
+
+
+
+

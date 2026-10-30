@@ -1,0 +1,152 @@
+﻿
+Active Connections
+
+  Proto  Local Address          Foreign Address        State           PID
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       712
+  RpcSs
+ [svchost.exe]
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    0.0.0.0:2103           0.0.0.0:0              LISTENING       1324
+ [mqsvc.exe]
+  TCP    0.0.0.0:2105           0.0.0.0:0              LISTENING       1324
+ [mqsvc.exe]
+  TCP    0.0.0.0:2107           0.0.0.0:0              LISTENING       1324
+ [mqsvc.exe]
+  TCP    0.0.0.0:3389           0.0.0.0:0              LISTENING       636
+  CryptSvc
+ [svchost.exe]
+  TCP    0.0.0.0:49152          0.0.0.0:0              LISTENING       400
+ [wininit.exe]
+  TCP    0.0.0.0:49153          0.0.0.0:0              LISTENING       764
+  eventlog
+ [svchost.exe]
+  TCP    0.0.0.0:49154          0.0.0.0:0              LISTENING       936
+  Schedule
+ [svchost.exe]
+  TCP    0.0.0.0:49155          0.0.0.0:0              LISTENING       1324
+ [mqsvc.exe]
+  TCP    0.0.0.0:49156          0.0.0.0:0              LISTENING       496
+ [services.exe]
+  TCP    0.0.0.0:49157          0.0.0.0:0              LISTENING       1724
+  PolicyAgent
+ [svchost.exe]
+  TCP    0.0.0.0:49159          0.0.0.0:0              LISTENING       504
+ [lsass.exe]
+  TCP    127.0.0.1:1801         0.0.0.0:0              LISTENING       1324
+ [mqsvc.exe]
+  TCP    192.168.56.101:139     0.0.0.0:0              LISTENING       4
+ Can not obtain ownership information
+  TCP    192.168.56.101:49498   192.168.56.1:445       ESTABLISHED     4
+ Can not obtain ownership information
+  TCP    [::]:80                [::]:0                 LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:135               [::]:0                 LISTENING       712
+  RpcSs
+ [svchost.exe]
+  TCP    [::]:445               [::]:0                 LISTENING       4
+ Can not obtain ownership information
+  TCP    [::]:2103              [::]:0                 LISTENING       1324
+ [mqsvc.exe]
+  TCP    [::]:2105              [::]:0                 LISTENING       1324
+ [mqsvc.exe]
+  TCP    [::]:2107              [::]:0                 LISTENING       1324
+ [mqsvc.exe]
+  TCP    [::]:3389              [::]:0                 LISTENING       636
+  CryptSvc
+ [svchost.exe]
+  TCP    [::]:49152             [::]:0                 LISTENING       400
+ [wininit.exe]
+  TCP    [::]:49153             [::]:0                 LISTENING       764
+  eventlog
+ [svchost.exe]
+  TCP    [::]:49154             [::]:0                 LISTENING       936
+  Schedule
+ [svchost.exe]
+  TCP    [::]:49155             [::]:0                 LISTENING       1324
+ [mqsvc.exe]
+  TCP    [::]:49156             [::]:0                 LISTENING       496
+ [services.exe]
+  TCP    [::]:49157             [::]:0                 LISTENING       1724
+  PolicyAgent
+ [svchost.exe]
+  TCP    [::]:49159             [::]:0                 LISTENING       504
+ [lsass.exe]
+  TCP    [::1]:1801             [::]:0                 LISTENING       1324
+ [mqsvc.exe]
+  UDP    0.0.0.0:123            *:*                                    292
+  W32Time
+ [svchost.exe]
+  UDP    0.0.0.0:500            *:*                                    936
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:3702           *:*                                    292
+  EventSystem
+ [svchost.exe]
+  UDP    0.0.0.0:3702           *:*                                    292
+  EventSystem
+ [svchost.exe]
+  UDP    0.0.0.0:4500           *:*                                    936
+  IKEEXT
+ [svchost.exe]
+  UDP    0.0.0.0:5355           *:*                                    636
+  Dnscache
+ [svchost.exe]
+  UDP    0.0.0.0:58898          *:*                                    292
+  EventSystem
+ [svchost.exe]
+  UDP    127.0.0.1:1900         *:*                                    1240
+  SSDPSRV
+ [svchost.exe]
+  UDP    127.0.0.1:61294        *:*                                    1240
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.56.101:137     *:*                                    4
+ Can not obtain ownership information
+  UDP    192.168.56.101:138     *:*                                    4
+ Can not obtain ownership information
+  UDP    192.168.56.101:1900    *:*                                    1240
+  SSDPSRV
+ [svchost.exe]
+  UDP    192.168.56.101:61293   *:*                                    1240
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::]:123               *:*                                    292
+  W32Time
+ [svchost.exe]
+  UDP    [::]:500               *:*                                    936
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:3702              *:*                                    292
+  EventSystem
+ [svchost.exe]
+  UDP    [::]:3702              *:*                                    292
+  EventSystem
+ [svchost.exe]
+  UDP    [::]:4500              *:*                                    936
+  IKEEXT
+ [svchost.exe]
+  UDP    [::]:5355              *:*                                    636
+  Dnscache
+ [svchost.exe]
+  UDP    [::]:58899             *:*                                    292
+  EventSystem
+ [svchost.exe]
+  UDP    [::1]:1900             *:*                                    1240
+  SSDPSRV
+ [svchost.exe]
+  UDP    [::1]:61292            *:*                                    1240
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::edbe:5d4f:c1ca:1aa5%17]:546  *:*                                    764
+  Dhcp
+ [svchost.exe]
+  UDP    [fe80::edbe:5d4f:c1ca:1aa5%17]:1900  *:*                                    1240
+  SSDPSRV
+ [svchost.exe]
+  UDP    [fe80::edbe:5d4f:c1ca:1aa5%17]:61291  *:*                                    1240
+  SSDPSRV
+ [svchost.exe]
+

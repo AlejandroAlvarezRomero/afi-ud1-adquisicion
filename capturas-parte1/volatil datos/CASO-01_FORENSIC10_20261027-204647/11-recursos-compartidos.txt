@@ -1,0 +1,18 @@
+﻿
+Share name   Resource                        Remark
+
+-------------------------------------------------------------------------------
+C$           C:\                             Default share                     
+D$           D:\                             Default share                     
+E$           E:\                             Default share                     
+IPC$                                         Remote IPC                        
+ADMIN$       C:\Windows                      Remote Admin                      
+The command completed successfully.
+
+There are no entries in the list.
+
+New connections will be remembered.
+
+There are no entries in the list.
+
+

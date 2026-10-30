@@ -1,0 +1,11 @@
+﻿
+
+CSName         : FORENSE-06
+Caption        : Microsoft Windows 7 Professional 
+Version        : 6.1.7601
+InstallDate    : 20170630194126.000000+120
+LastBootUpTime : 20261027195119.132875+060
+
+
+
+

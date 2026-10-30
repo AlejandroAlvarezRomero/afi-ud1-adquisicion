@@ -1,0 +1,60 @@
+﻿
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : FORENSE-06
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Local Area Connection 3:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) PRO/1000 MT Network Connection #3
+   Physical Address. . . . . . . . . : 08-00-27-C6-64-B2
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2a0c:5a83:3405:3801::ee96(Preferred) 
+   Lease Obtained. . . . . . . . . . : Tuesday, October 27, 2026 7:51:27 PM
+   Lease Expires . . . . . . . . . . : Saturday, December 04, 2162 4:15:03 AM
+   Link-local IPv6 Address . . . . . : fe80::edbe:5d4f:c1ca:1aa5%17(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.56.101(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Tuesday, October 27, 2026 9:09:46 PM
+   Lease Expires . . . . . . . . . . : Tuesday, October 27, 2026 9:54:47 PM
+   Default Gateway . . . . . . . . . : 
+   DHCP Server . . . . . . . . . . . : 192.168.56.100
+   DHCPv6 IAID . . . . . . . . . . . : 336068647
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-20-E8-C2-B5-00-50-56-87-0E-4A
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Tunnel adapter isatap.{95DD419C-4C41-4BD3-9B17-765FEC965DAB}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft ISATAP Adapter
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter 6TO4 Adapter:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft 6to4 Adapter
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Tunnel adapter Teredo Tunneling Pseudo-Interface:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Teredo Tunneling Pseudo-Interface
+   Physical Address. . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+

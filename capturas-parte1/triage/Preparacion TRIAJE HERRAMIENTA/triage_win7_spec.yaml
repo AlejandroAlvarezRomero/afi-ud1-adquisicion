@@ -1,0 +1,72 @@
+# ============================================================================
+# Spec del Offline Collector de Velociraptor - Triage Windows 7 SP1 (7601)
+# ----------------------------------------------------------------------------
+# Reglas de formato (Velociraptor valida el spec con un esquema):
+#   - Los PARAMETROS DE LOS ARTIFACTS (dentro de "Artifacts") son strings;
+#     las listas van como JSON serializado dentro de comillas.
+#   - Las opciones "Opt*" llevan su tipo real: true/false para si/no
+#     y numeros SIN comillas.
+# Compara las claves con la plantilla de tu version:
+#     velociraptor-vX.Y.Z-windows-amd64.exe collector > sample_spec.yaml
+# ============================================================================
+
+# Generic = collector independiente del binario: un fichero de datos que se
+# ejecuta con el exe legacy de Windows 7. No necesita descargar nada de GitHub.
+OS: Generic
+
+Artifacts:
+
+  # --- 1) Triage de ficheros (estilo KAPE) --------------------------------
+  # Windows.Triage.Targets NO viene incluido en el binario desde la 0.75:
+  # se compila con --definitions apuntando a las definiciones descargadas.
+  Windows.Triage.Targets:
+    HighLevelTargets: '["_KapeTriage","_SANS_Triage"]'
+    # SOLO la unidad del sistema. No incluyas la letra del "pendrive":
+    # recolectarias tambien el propio ZIP de salida.
+    Devices: '["C:"]'
+    # Opcional: incluir Volume Shadow Copies de los ultimos N dias.
+    # VSS_MAX_AGE_DAYS: '30'
+
+  # --- 2) Estado volatil / live (todo integrado, sin descargas) -----------
+  Generic.Client.Info: {}
+  Windows.System.Pslist: {}
+  Windows.Network.Netstat: {}
+  Windows.Network.ArpCache: {}
+  Windows.System.Services: {}
+  Windows.System.TaskScheduler: {}
+  Windows.Sys.StartupItems: {}
+  Windows.Sys.Users: {}
+  Windows.Sys.Programs: {}
+  Windows.Sys.Drivers: {}
+  Windows.System.HostsFile: {}
+  Windows.System.Shares: {}
+
+# Contenedor de salida: ZIP local (sin subida a la nube)
+Target: ZIP
+EncryptionScheme: None
+EncryptionArgs:
+  public_key: ""
+  password: ""
+
+# --- Opciones de ejecucion --------------------------------------------------
+OptVerbose: true
+OptBanner: true
+# Pausa al final ("pulsa Enter") para que la consola no se cierre sola
+OptPrompt: true
+# Exigir administrador (imprescindible para leer $MFT, hives, VSS, etc.)
+OptAdmin: true
+# Directorio temporal. Vacio = %TEMP% de C:. Si C: va justa de espacio,
+# pon aqui una ruta en el segundo disco (p. ej. 'E:\\tmp').
+OptTempdir: ""
+OptLevel: 5
+OptConcurrency: 2
+OptFilenameTemplate: "Triage-%Hostname%-%TIMESTAMP%"
+OptCollectorTemplate: ""
+OptFormat: jsonl
+# Vacio = el ZIP se escribe en la carpeta desde la que ejecutas el collector.
+OptOutputDirectory: ""
+OptCpuLimit: 0
+OptProgressTimeout: 1800
+OptTimeout: 0
+OptVersion: ""
+OptDeleteAtExit: false
