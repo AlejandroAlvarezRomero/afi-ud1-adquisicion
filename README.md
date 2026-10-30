@@ -17,3 +17,6 @@ Alejandro Álvarez Romero
 - [Captura del tráfico de red](https://github.com/AlejandroAlvarezRomero/afi-ud1-adquisicion/tree/main/capturas-parte1/trafico%20red)
 - [Triaje](https://github.com/AlejandroAlvarezRomero/afi-ud1-adquisicion/tree/main/capturas-parte1/triage)
 - [Datos volátiles y respuesta en vivo](https://github.com/AlejandroAlvarezRomero/afi-ud1-adquisicion/tree/main/capturas-parte1/volatil%20datos)
+
+
+>  He eliminado "volcado_ram.raw" y "Triage-FORENSE-06-2026-10-28T18_49_34Z.zip" ya que ocupaban mas de 100MB y no se pueden subir archivos de mas de esa cantidad, en caso de que nos necesite como prueba se los adjunto fuera del repositorio.
