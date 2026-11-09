@@ -105,8 +105,9 @@ Dia 03/11/2026
   * Para la entrega del repositorio al tribunal/compañero, se genera un archivo que contenga todos los hashes de todas las evidencias.
   * Desde un terminal de Linux, en la raíz del repositorio, se ejecuta: 
     `find . -type f ! -name hashes.sha256 -exec sha256sum {} + > hashes.sha256`
+Dia 09/11/2026
 
-* **[????] - Verificación Cruzada y Registro de Custodia:**
+* **[10:30] - Verificación Cruzada y Registro de Custodia:**
   * Se realiza la entrega física del repositorio de evidencias al compañero Hugo Pérez.
   * El compañero ejecuta el comando `sha256sum -c hashes.sha256` en el terminal para que el sistema valide si todos los archivos mantienen la integridad original. El sistema devuelve "La suma coincide / OK".
   * Se procede a firmar la entrega y devolución en la plantilla del acta correspondiente (`registro-custodia.pdf`).
