@@ -1,0 +1,50 @@
+﻿Created By Exterro® FTK® Imager 8.3.0.27 
+
+Case Information: 
+Case Number: CASO001
+Evidence Number: 1
+Unique Description: 
+Examiner:  
+Notes: Trabajo 
+Encrypted Password : N/A
+
+Computer Name: ALVAREZROMERO
+Windows Edition: Windows 11 Pro for Workstations
+Windows Version: Microsoft Windows 6.3.26200.9711
+OS build: 6.3.26200
+Processor: 12th Gen Intel(R) Core(TM) i5-12400F
+Installed RAM: 32 GB
+
+--------------------------------------------------------------
+
+Information for C:\Users\Instituto\afi-ud1-adquisicion\imagen_trabajo:
+    Source data size: 32768 MB
+    Sector count:    67108864
+  [Computed Hashes]
+    MD5 Hash:    edb6f4bd9ba837956f03b1bd1cf354f6
+    SHA1 Hash:   543077c63f7ae20fe89a015c84fe2b6b90ef74bd
+
+Verification Definitions:
+  Computed hash: The hash calculated of the source media during the creation or verify process
+  Stored verification hash: The hash calculated during image acquisition and stored inside the image
+  Report hash: The hash calculated during image acquisition and stored in the image summary report
+
+Image Information:
+  Acquisition started:   Tue Nov  3 10:55:19 2026 (2026-11-03T09:55:19Z)
+  Acquisition finished:  Tue Nov  3 10:57:08 2026 (2026-11-03T09:57:08Z)
+  Segment list:
+    C:\Users\Instituto\afi-ud1-adquisicion\imagen_trabajo.E01
+    C:\Users\Instituto\afi-ud1-adquisicion\imagen_trabajo.E02
+    C:\Users\Instituto\afi-ud1-adquisicion\imagen_trabajo.E03
+    C:\Users\Instituto\afi-ud1-adquisicion\imagen_trabajo.E04
+    C:\Users\Instituto\afi-ud1-adquisicion\imagen_trabajo.E05
+
+Image Verification Results:
+  Verification started:  Tue Nov  3 10:57:08 2026 (2026-11-03T09:57:08Z)
+  Verification finished: Tue Nov  3 10:58:16 2026 (2026-11-03T09:58:16Z)
+  MD5 - Computed hash:             edb6f4bd9ba837956f03b1bd1cf354f6 : verified
+  MD5 - Stored verification hash:  edb6f4bd9ba837956f03b1bd1cf354f6 : verified
+  MD5 - Report hash:               edb6f4bd9ba837956f03b1bd1cf354f6 : verified
+  SHA1 - Computed hash:            543077c63f7ae20fe89a015c84fe2b6b90ef74bd : verified
+  SHA1 - Stored verification hash: 543077c63f7ae20fe89a015c84fe2b6b90ef74bd : verified
+  SHA1 - Report hash:              543077c63f7ae20fe89a015c84fe2b6b90ef74bd : verified

@@ -1,0 +1,140 @@
+de379b194b2e6d78d17a1db59409895b471f26ac437235f6c47c6c752a00b718 *./.git/COMMIT_EDITMSG
+b2506e74cabb9a6aaa22ce213e499e7725e31485b6689b3fd28d2fdf532e84c4 *./.git/config
+85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee *./.git/description
+86cdaa20a5e37da95d570f674d5bfa239f5c27aa0f4b0910af13d470174f4a99 *./.git/FETCH_HEAD
+28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80 *./.git/HEAD
+0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7 *./.git/hooks/applypatch-msg.sample
+1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437 *./.git/hooks/commit-msg.sample
+e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0 *./.git/hooks/fsmonitor-watchman.sample
+81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5 *./.git/hooks/post-update.sample
+e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475 *./.git/hooks/pre-applypatch.sample
+57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b *./.git/hooks/pre-commit.sample
+d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53 *./.git/hooks/pre-merge-commit.sample
+ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a *./.git/hooks/pre-push.sample
+4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3 *./.git/hooks/pre-rebase.sample
+a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989 *./.git/hooks/pre-receive.sample
+e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619 *./.git/hooks/prepare-commit-msg.sample
+a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f *./.git/hooks/push-to-checkout.sample
+44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92 *./.git/hooks/sendemail-validate.sample
+8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106 *./.git/hooks/update.sample
+eaf5521296772127833aea4710ecf2b5356421c7c379c63155a8e6c89de33db5 *./.git/index
+6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1 *./.git/info/exclude
+a031282af86f5d9f760a7e3c8670ba890c47d633d970b95e061dcfaeafa12f51 *./.git/info/refs
+be3b328375789742ac2b07a0fc2ed4d0211ce093f4d700b9710632f254469a5e *./.git/logs/HEAD
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 *./.git/logs/refs/heads/copia-seguridad
+be3b328375789742ac2b07a0fc2ed4d0211ce093f4d700b9710632f254469a5e *./.git/logs/refs/heads/main
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 *./.git/logs/refs/remotes/origin/HEAD
+09568bde7b80b1087de1a57b6e2a8989dda3cde7129654165d65a1a57d287381 *./.git/logs/refs/remotes/origin/main
+d9e878f50f17587d5f091bbc27ba1a6a088b28c453b806e0814a75dcf8dd4adc *./.git/objects/1e/d5cdb41c81718ccf4610b1592e9f4eea4c6587
+4cc8cbdd7cf32f638fb9dc5e23df1b1860192e8dd2a2d8a0b398f812cece4c30 *./.git/objects/22/0d43838ba34cba3fa68a4ec9f3fb6e162a5ffe
+04fc3f5761edc2fdbfac8ce619dbdc2d6cecaebe96aad0fb1a5c24cf59c72d6b *./.git/objects/35/9c4cb7a1033d3a5f1cdb50a49b74c2f4ece66e
+9e0df269b249228d5ab0a653948a3283e69baa05ea4d8326d143fa46cf92d680 *./.git/objects/89/61f8dde395c23f74a9e581837f018be92224cf
+6843d217419f944244086eb50410c32252772a4cfbed5b29e0346e939347f69c *./.git/objects/8d/f6cb7ada8cf8d59249050581aada5ea30c20f5
+eacd9b14be911f340dd3c7671c4c4ec056fb59237649ac20868552cfd743b4f6 *./.git/objects/aa/0364fde6ca7fd5e9858c7beca1a308d1cd0e99
+164c5fa8067facf1a43f09ce3d0e35ebf53a7f5723ecbf15a8667cfc53c26f6c *./.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+aa1335cf58448a57c39a92bc83376844bc76fd23b62f0ebb484bd038edcd0b6a *./.git/objects/info/commit-graph
+586c2c1e44aa6414a501d239a56fc643cc5f84ca9334418b02229a5122b89773 *./.git/objects/info/packs
+bde79d19e47bc5954387588fc58229d6012497933940c87139d681d08508ebba *./.git/objects/pack/pack-928956b6c58aa64b5d1108bb8092a42b10fd3df3.idx
+0f0274a026c605d06ba8b148bd3a39fa0aff30ec03c2e199214b743e0fa73698 *./.git/objects/pack/pack-928956b6c58aa64b5d1108bb8092a42b10fd3df3.pack
+80afe29b3713ebb0754fe24030d928f90f6b8d25afcd078640746aac1125a547 *./.git/objects/pack/pack-928956b6c58aa64b5d1108bb8092a42b10fd3df3.rev
+a37a31fc22740a400c6878bbd851649fae663aa45e27947e185e1435c106bfee *./.git/ORIG_HEAD
+360980ce26fce5cf26119cbc8ecd50d5f631aaa88c5b516b7a3f577fb85e16d6 *./.git/packed-refs
+e9ecf64a8d2e25768948dee9a11e4d8d4a0d75f603a18b0beda4faaf1aef9331 *./.git/refs/agents/ec6602fd-e35b-49ae-be1d-9616f21dc801/checkpoints/turn/6
+a37a31fc22740a400c6878bbd851649fae663aa45e27947e185e1435c106bfee *./.git/refs/heads/main
+2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4 *./.git/refs/remotes/origin/HEAD
+a37a31fc22740a400c6878bbd851649fae663aa45e27947e185e1435c106bfee *./.git/refs/remotes/origin/main
+fd8bf3224024746d9d3f690ce016b3d99910107baaa128e0d3dd9f31976081e7 *./acta-adquisicion.pdf
+fe6713ddd6a1a238c9ae3bb13171bdc48ba122550e0eb31e15e4012a3a44cec8 *./capturas/capturas-parte1/cifrado/hora cifrado.png
+d58fe70fa38a44485ec44dfce95725ebeb46f69feea536942c9df9c1b13702f5 *./capturas/capturas-parte1/hora/CAPTURA NADA MAS ENCENDER.png
+823fa94cd3e07aac69a4b9235b8e5e8acae63a520f66b1ca7f05dee68a7729b6 *./capturas/capturas-parte1/hora/herramientas listas.png
+b4821edb7e2856cb6b11e108e6c82b1e946997fa754532e0d12726bbd006657c *./capturas/capturas-parte1/hora/hora sistema hora real y diferencia.png
+a59f6a34d9440408a68afc063c159524ca1cf6af64432863ea1f6f5a3228a00f *./capturas/capturas-parte1/hora/marca y hora abajo.png
+aa85fdaa62bbc425753f12f958a722b3890316d54504d1ac6d481b0036844346 *./capturas/capturas-parte1/PREPARACION DISCO VIRTUAL/formateo.png
+0b8b2c1a5b4382f7fbfef8ff25445cc475bdef356e596ea290c1254fff7a77ee *./capturas/capturas-parte1/PREPARACION DISCO VIRTUAL/formateo2.png
+7d23332c39a572aeff42307c54d17f2f554f189c54098b6c3c33532c86daf3a5 *./capturas/capturas-parte1/ram/dd-0.5.zip
+5dd033763193ac78265ae8f6b3f38f2ce1e417a9b7257804b369f6e29c462969 *./capturas/capturas-parte1/ram/hora inicio volcado.png
+8cdad4ed98b5f1649ab095e62ad0d39fbfc9c533acb7facdb80944eb02bbabf8 *./capturas/capturas-parte1/ram/MARCA.png
+511ffab53a67f47329d46bc330807cf3f70b2aba4a98a47072de708d527aface *./capturas/capturas-parte1/ram/volcado ram.png
+fe3fb998a15452c999c6391a7987272d5cb03709702c65081d0796529b9a35bb *./capturas/capturas-parte1/ram/volcado_ram.raw
+e430a66771eaa373e3ad7132d4401c751650dadc1c3ded0f26fee173c0a2f8f6 *./capturas/capturas-parte1/trafico red/captura_red.pcap
+41e6eda52823f89f38c554298f94eb2a18a42b09dcd80e6ae610f2ae48fbd26d *./capturas/capturas-parte1/trafico red/hora trafico.png
+0345172975c7bd32bd8e41495e49d779439206360bdd0ec208af1d0bbe6aabfa *./capturas/capturas-parte1/triage/hora fin triage con archivos dados.png
+a228b9a6192d8e7df5c55b005ee44a5a156e7af0fc85ef7bb42e314465fe7b4b *./capturas/capturas-parte1/triage/hora inicio triage.png
+5478c171b159b9799c8578c7b07e705994ea9b9c89ead677812ad566f668f1e6 *./capturas/capturas-parte1/triage/MARCA ARCHIVO GUARDADO.png
+911ff93cb9ace76c17a045662663249a35db80119d267a865432aabb0874844c *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/artifacts/Linux.Triage.UAC.yaml
+c57bd759ef761df66e571045c57595ae80a9598575273214cb83ff51b407dab5 *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/artifacts/Windows.KapeFiles.Targets.yaml
+88f35a415eed42f416b09cd9fdbae38fce1d417898db54793bdd852320615b15 *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/artifacts/Windows.Triage.Targets.yaml
+9673e0c128bf2d5eb2d2df29f906c0b8b68b7e1bba262a8627bfcc029fcfbffd *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/construir_triage_win7.bat
+a388403b3273a9517d782748124aa7bd5c426fcd3f293caeab02d40d4413e6d4 *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/datastore/client.config.yaml
+cf9907c81fa695047cadf09ea70648c2738e4f0b0f837940a6be9f2f9c1274fe *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/datastore/Collector_velociraptor-collector
+e783c87c56e581ab11645d56554906ab279766eb2ba7792ca96b8c23937a0c6c *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/datastore/config/inventory.json.db
+6646f74bce68e6d60494d28919be638714d0ec4c2ee7058bf526fb21cfeb7e36 *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/datastore/public/012b58836956bb3d1ca270b02180af765180f242b81751d476ed0fac15f9c5a1
+b1f6c057b02150ecb8bb0bfd5e7af77addf02f70c5c058eee510a62bdd9ce3c7 *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/datastore/server.config.yaml
+9905d82135f7e536ad57877c522aac3f5455b37b2aa03c9846d321ec7bb5eaab *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/datastore/spec.yaml
+2536466cc29ae291e0077421fc52f332b83805cad14337a223eecc764f796456 *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/lanzar_triage.bat
+a65dc5296fc610f52824c58ff9da679b9bb86ef810ced2e90caf01a5b013d325 *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/log_construccion.txt
+f2d95b526136c9f8662400b6bb488da28cd4091633dde3fbc01255a1adfdd1ed *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/registro.txt
+12e3a6b0cc51d822d740f56cc26c74d2dd1bda3664aa392724cc0af5fc68da44 *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/triage_win7_spec.yaml
+a15f8b9bdfcf1fe5b4e73eafcb9c3091eb347b9c7f32ae7e94ab5de41c8c434e *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/velociraptor-v0.76.1-windows-amd64-legacy.exe
+06c590448364a914eea51e6737020c9917192fcdbe5d9d320f7997b8325db832 *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/velociraptor-v0.76.7-windows-amd64.exe
+387fc2da89107d62b607185280a357d620a16fd0c99c5c9a5381c4cd80553d1a *./capturas/capturas-parte1/triage/Preparacion TRIAJE HERRAMIENTA/Velociraptor_Triage_v0.1.zip
+6b18b8111c3c2fdfcf696e06e4493e7d13d2f15e002bc2b856de66424dd21222 *./capturas/capturas-parte1/triage/SOLUCION TRIAGE/Triage-FORENSE-06-2026-10-28T18_49_34Z.log
+1c20d7698c5137d626af234d634b07031c54832aaacfc7c9e4680df8ba0ea939 *./capturas/capturas-parte1/triage/SOLUCION TRIAGE/triage_manifest_FORENSE-06_20261028194934.yaml
+3fe026810221e48974f23c80581844c81f10d50b6bedd1f3f6367329b48695dd *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/00-registro.txt
+6a6c47b5be49c54c7ab58af3d4a297eeef1039b90d62e83d46aa6178f30aade3 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/01-fecha-hora.txt
+3843d71da341c82c3fb8f800b8af6405feb50d1d19596b61b1ea39efcbb20a38 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/01b-sincronizacion.txt
+4b7a4418349a72f087f9108fa317b0d0de20c7c0f9bf047ea2fa90223d54e5bb *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/02-arranque.txt
+eb10dd8c9bb7925aa89e6a4abac727edba81a505033e19ac8b607c4907642f21 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/03-sesiones.txt
+c3ff71a48df634412024d48867d35e5197cc704b3b180d36d53f80143d82846d *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/04-conexiones-tcp.txt
+0d0ea90ce0b00c6a654986fd6ef6c1f96a1e48b1a37615da3c7f555a0038b603 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/05-puertos-udp.txt
+f3582110b41230a1487a3dca903a8bcf5cd97146adb50e9749b60b51d6d16405 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/06-netstat.txt
+5961550647c38a0999928087180b5a79d3ea31fca8bc8a84f6f511fd2b1f93e6 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/07-cache-arp.txt
+ae9fcfcf9d6f94878feefb6057f32919b7897e0b27c3e3cf8d487c012027ea21 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/08-cache-dns.txt
+8075d11bdb97267b4b716d1dd78b04e2dfbd7dc424f6e836ed721a2853a17ba2 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/09-rutas.txt
+25ca6c34b822a6ec1cc13fb7ec5286a8bd20377a9eb1d32e59978ade9cfde5f4 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/10-configuracion-red.txt
+fe6f2d557219890cfc1697ded66cdfd80615d4c7ceac44dfdfbaa2387c92a9b8 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/11-recursos-compartidos.txt
+84b20f181cda4f405dec1830683634bcf8765da45aa88367d857ff830f649b47 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/12-procesos.txt
+d0479889e6db4cec99cc6b2d18a08295332ec9585095bb7331835c5dc4b977a1 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/13-servicios.txt
+f6c0936e1d35e2103d965460627c13b4216da1f1db61fe96110d258882ca4f7e *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/14-tareas-programadas.txt
+559a45b0642190ce2ab0d7368861e1e5ae7cbbacc0a232bcafabb7e5bc0f05a5 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/15-inicio-automatico.txt
+d07164b00ee8aef1f2a5f621908735d34eee5cc12c6286bd6749e645a99e3493 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/16-usuarios-locales.txt
+21ad38a07c519319360ac55acc23c59d1a3811772fc3fe4643a28388dbc68d32 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/16b-administradores.txt
+b0fd3ab3d345f53c369816b1924593a7997ef59921cefd9b31faa0a1ffaf6194 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/17-discos-volumenes.txt
+5e8661fc65ffe870fd5f983ea253b9c31064d9f614653c38ab79182c369e0291 *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/18-usb-conectados.txt
+60116575bb1b6772ed22ba93bfa53bef0a772667da1812c1c3fc0a46cd93bc3e *./capturas/capturas-parte1/volatil datos/CASO-01_FORENSIC10_20261027-204647/19-portapapeles.txt
+68fc4e5fffa5292dbc5b9f0ca225f55425df5045f7db007954b1409eb7a01496 *./capturas/capturas-parte1/volatil datos/DATOS VOLATILES.png
+74c4d874b31680895a0c5222f785f287e1acda8a76f20f0c347dab604bdb36c5 *./capturas/capturas-parte1/volatil datos/respuesta-en-vivo-7.ps1
+076db053d8bc0d4d4b01bef80e3abd7ae0f178c5f6d12446f4c60ca2ea60bb27 *./capturas/capturas-parte2/Captura de pantalla 2026-11-03 105448.png
+54405640c889381da97986b3943fedb6d2c67b47eabca814f4c92366091a9529 *./capturas/capturas-parte2/Captura de pantalla 2026-11-03 113551.png
+f28cd857e8a3ab5b4786d7521dfb0fa5eacaae57659ece7c254e171c9337d01b *./capturas/capturas-parte2/Captura de pantalla 2026-11-03 114119.png
+98e7fd8b3cd89459fa2f5a11a8105123c57e94dbf00799025e6bb84e8be54e0c *./capturas/capturas-parte2/Captura de pantalla 2026-11-03 194502.png
+2112145c125a61e24cf217870f34d030e51b41aa8549968bca7eedaf0ef3859c *./capturas/capturas-parte2/Captura de pantalla 2026-11-03 194928.png
+4b7766be777d5a9e799a58c06152162fab345b770b20e3fc9c8a48ff785aee36 *./capturas/capturas-parte2/Captura de pantalla 2026-11-03 195111.png
+30f0592b5b31a78b125c63fd36e21d9a7d3a469338e298d31c376c065bbddec7 *./capturas/capturas-parte2/Captura de pantalla 2026-11-03 200212.png
+030e565dcefabbd6d626738f8805f68dce8b71698418000ee4ac8721c6d462d3 *./capturas/capturas-parte2/HASH ANTES DE IMAGEN.png
+7ce0bb55cee6d6f2f1b7b4975b4841212f1d573b506fdf09125c1b10caba599c *./hashes/hashes-parte1/DATOS VOLATILES/hashes archivos.csv
+949a7da8e77a8f024742ec37262d04dc3e43fca75685807c06dad323f7bf464b *./hashes/hashes-parte1/RAM/hash ram.png
+8196b47a5764043706e3fd2502946b0010004fc8bef478d4b12c5527bb84bd92 *./hashes/hashes-parte1/RAM/hash ram.txt
+6deca561e03e123d7e5ed2639f98a7047ef24c4ee994fe09f142ee811a11b403 *./hashes/hashes-parte1/TRAFICO RED/hash trafico.txt
+4a6a5c12d225e87eb2046f3ea6a984bb4e3923fc81857e338e90e5756e7dcd5f *./hashes/hashes-parte1/TRAFICO RED/hash y hora.png
+48f1f94e593db1da53090edc21c1d49f0a308fcba97f0b5ae80871465e17440a *./hashes/hashes-parte1/TRIAGE/hash triage.png
+6c8a91bb9104cb01ca9725232b8bbc730f3bf613314c94a0996b86e9c81469f1 *./hashes/hashes-parte1/TRIAGE/hash triage.txt
+e4c120dc6f6e0cdcb33db807bc6ca2c3940d7e0df871c6e73464a3777535c35a *./hashes/imagen_pendrive.E01.txt
+edd8ade1dd738c06c79a4382b79f6edc16ebcd1e1764b0b7972fe8efcfab9e83 *./hashes/imagen_trabajo.E01.txt
+7d948e75c11839dfaf518461b90adbd7f3af4f99988b98d99efc8a9f2dae7e74 *./HUGO/.E01
+44dd83258038c8484ae4b5ae9bde41d921b12022956123fe862e77b16773b176 *./HUGO/imagen_pendrive.E02
+0dcc630c213df6693367b79e42cc37c3a03f865f1f1b55a15a322cf4fa474ba5 *./HUGO/imagen_pendrive.E03
+d3153d5315382fc0f0eb05e212ae457cd597f92aa8bde0ff41f0404698d2f312 *./HUGO/imagen_pendrive.E04
+949ff524b8000c342379834811a1f62d21919f6560ea2995a01d76acd9ccff5a *./HUGO/imagen_pendrive.E05
+0ef71889c4f18c118d99922caa17ff51b329a1df64ea26bf969f649f7436e848 *./HUGO/imagen_pendrive.E06
+4fe67c363c30b09f5b9b114ace62b9edd80d8b0a2f2584dae35c7b3183ecd11e *./HUGO/imagen_pendrive.E07
+49c10efb50425c2eddc43696b77cf0fdd3b3a3cd2e77e4081e71bf53bb52d019 *./HUGO/imagen_pendrive.E08
+8bcdbb5b693dac038c257ad169242b2d5a6bf49433224bcd4d79e6dccefa684c *./HUGO/imagen_pendrive.E09
+7cf8a031f6ccea2d18c6885960e422372af62cdc2a1fdd5680144cd0b22d2ab0 *./HUGO/imagen_pendrive.E10
+16dacc0e21ccb3787841bc888f06b5401b0015b6040f457e9d7a3864332ad5d4 *./HUGO/imagen_trabajo.E01
+62449180e9112ee086417e8e81e7b5701256ea6a44ed18d711dfed3cf55e10c8 *./HUGO/imagen_trabajo.E02
+67bb38919cfd733683d8d42aba5fbb2fc12e12b7073bd67c65633327ede75c9b *./HUGO/imagen_trabajo.E03
+9db7710c62342fdd188573cf398a6a5fa559719ebdfd46cb3ccfd556b538c45f *./HUGO/imagen_trabajo.E04
+e9125681e0704f8f5015031159c030a499cd2939759a830a7a3edfbfe3d0cb95 *./HUGO/imagen_trabajo.E05
+37b4ca4e7c13af7acfa88f728484e4a52aa37c20281afcee628b35baa066bc1f *./notas-de-trabajo.md
+1d2d2d2b4168ecdca229376e05731d9f3738e167c131a5c66f1b933c1f82efbe *./README.md
